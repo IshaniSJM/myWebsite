@@ -11,6 +11,9 @@ body
 
 /* -------------------------------------------- */
 
+
+/* ---- Navigation Bar ---- */
+
 /* Styling the top navigation bar */
 .navbar
 {
@@ -32,6 +35,22 @@ body
 /* Change hover color */
 .navbar a:hover
 {
-    background-color: #ddd;
+    background-color: #ffffff;
     color: black;
+}
+
+
+/* ---- Header ---- */
+
+.header
+{
+    padding: 80px;
+    text-align: center;
+    background: #500000;
+    color: white;
+}
+
+.header h1
+{
+    font-size: 40px;
 }
