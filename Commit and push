@@ -1,0 +1,4 @@
+git add index.html
+git add styles.css
+git commit -m "Message"
+git push origin main
