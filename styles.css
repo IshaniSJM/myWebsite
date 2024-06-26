@@ -5,7 +5,7 @@
 
 body
 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ body
 .navbar
 {
     overflow: hidden;
-    background-color: #333;
+    background-color: #121212;
 }
 
 /* Styling bar links */
@@ -35,7 +35,7 @@ body
 /* Change hover color */
 .navbar a:hover
 {
-    background-color: #ffffff;
+    background-color: rgb(255, 255, 0);
     color: black;
 }
 
@@ -47,7 +47,7 @@ body
 {
     padding: 80px;
     text-align: center;
-    background: #500000;
+    background: #121212;
     color: white;
 }
 
@@ -63,7 +63,7 @@ body
 
 .header p
 {
-    color: red;
+    color: rgb(255, 255, 0);
 }
 
 
@@ -79,16 +79,44 @@ body
     flex-wrap: wrap;
 }
 
-/* "About Me" section's attributes */
+/* ---- "About Me"/left section's attributes ---- */
 
 .abtMe
 {
-    -ms-flex: 30%;
-    flex: 30%;
-    background-color: aquamarine;
+    -ms-flex: auto;
+    flex: auto;
+    background-color: #242424;
     padding: 20px;
+    color: white;
 }
 
+/* ---- "Facts"/right section's attributes ---- */
+
+.facts
+{
+    -ms-flex: auto;
+    flex: auto;
+    background-color: #242424;
+    padding: 20px;
+    color: white;
+}
+
+.facts p
+{
+    color: rgb(255, 255, 0);
+}
+
+.facts li
+{
+    color: rgb(255, 255, 0);
+}
+
+/* Button hiding */
+
+.hidden
+{
+    display: none;
+}
 
 /* ---- Image dimentions ---- */
 
@@ -102,4 +130,25 @@ body
 {
     width: 400px;
     height: 250px;
+}
+
+/* ---- Background and Vision ---- */
+.main
+{
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color: #363636;
+    color: white;
+    padding: 20px;
+}
+
+/* ---- Footer ---- */
+.footer
+{
+    -ms-flex: auto;
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    background: #484848;
+    color: white;
 }
