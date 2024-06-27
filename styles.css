@@ -79,6 +79,7 @@ body
     flex-wrap: wrap;
 }
 
+
 /* ---- "About Me"/left section's attributes ---- */
 
 .abtMe
@@ -89,6 +90,7 @@ body
     padding: 20px;
     color: white;
 }
+
 
 /* ---- "Facts"/right section's attributes ---- */
 
@@ -118,6 +120,32 @@ body
     display: none;
 }
 
+
+/* ---- Background and Vision ---- */
+
+.main
+{
+    -ms-flex: auto;
+    flex: auto;
+    background-color: #363636;
+    color: white;
+    padding: 20px;
+}
+
+
+/* ---- Footer ---- */
+
+.footer
+{
+    -ms-flex: auto;
+    flex: auto;
+    padding: 20px;
+    text-align: center;
+    background: #484848;
+    color: white;
+}
+
+
 /* ---- Image dimentions ---- */
 
 #Ishani
@@ -135,27 +163,12 @@ body
 
 #BlackCrown
 {
-    width: auto;
+    width: 40vw;
     height: auto;
 }
 
-/* ---- Background and Vision ---- */
-.main
+#CodingLaptop
 {
-    -ms-flex: auto;
-    flex: 100%;
-    background-color: #363636;
-    color: white;
-    padding: 20px;
-}
-
-/* ---- Footer ---- */
-.footer
-{
-    -ms-flex: auto;
-    flex: auto;
-    padding: 20px;
-    text-align: center;
-    background: #484848;
-    color: white;
+    width: auto;
+    height: 300px;
 }

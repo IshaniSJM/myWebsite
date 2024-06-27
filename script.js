@@ -5,7 +5,7 @@ const animalButton = document.getElementById("show-animal");
 animalButton.addEventListener("click", () => 
 {
     animalDiv.classList.toggle("hidden");
-})
+});
 
 
 // Toggle power on click
@@ -15,7 +15,7 @@ const powerButton = document.getElementById("show-power");
 powerButton.addEventListener("click", () => 
 {
     powerDiv.classList.toggle("hidden");
-})
+});
 
 
 // Toggle skills on click
@@ -25,4 +25,4 @@ const skillsButton = document.getElementById("show-skills");
 skillsButton.addEventListener("click", () => 
 {
     skillsDiv.classList.toggle("hidden");
-})
+});
