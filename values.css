@@ -1,4 +1,9 @@
 /* All value card attributes */
+body
+{
+    background-color: #242424;
+}
+
 .values
 {
     position: relative;
@@ -8,6 +13,7 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 30px;
+    /* background-color: #242424; */
 }
 
 /* Individual value card */
@@ -16,11 +22,11 @@
     position: relative;
     max-width: 300px;
     height: 150px;
-    background: wheat;
+    background: #363636;
     margin: 30px 10px;
     padding: 20px 15px;
     display: flex;
-    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 50px rgba(255, 255, 255, 0.5);
     transition: 0.4s ease-in-out;
 }
 
@@ -41,7 +47,7 @@
     top: -60px;
     left: 20px;
     z-index: 1;
-    box-shadow: 0 3px 50px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 50px rgba(255, 255, 255, 0.5);
 }
 
 /* Image attributes */
@@ -52,15 +58,14 @@
     border-radius: 6px;
 }
 
-/* Value care text attributes */
+/* Value card text attributes */
 .values .value-card .detail
 {
     position: relative;
     margin-top: -140px;
-    padding: 10px 15px;
-    
-    text-align: right;
-    color: black;
+    padding: 10px 25px;
+    text-align: center;
+    color: white;
     font-family: monospace;
     visibility: hidden;
     opacity: 0;
