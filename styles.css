@@ -7,6 +7,29 @@ body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 700px)
+{
+    .row
+    {
+        flex-direction: column;
+    }
+    img
+    {
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+@media screen and (max-width: 400px)
+{
+    .navbar a
+    {
+        float: none;
+        width: 100%;
+    }
 }
 
 /* -------------------------------------------- */
@@ -161,7 +184,7 @@ body
     
 }
 
-#BlackCrown
+#HeaderImage
 {
     width: 40vw;
     height: auto;
