@@ -39,23 +39,50 @@ body
 /* Image container attributes */
 .values .value-card .value-img
 {
-    position: relative;
+    position: absolute;
     align-content: center;
-    width: 260px;
-    height: auto;
-    background-color: white;
-    top: -60px;
+    width: 100px;
+    height: 360px;
+    top: -110px;
     left: 20px;
     z-index: 1;
-    box-shadow: 0 3px 50px rgba(255, 255, 255, 0.5);
 }
 
-/* Image attributes */
+/* Image container attributes */
 .values .value-card .value-img img
 {
-    max-width: 100%;
-    max-height: 100%;
-    border-radius: 6px;
+    max-width: auto;
+    max-height: 100px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+ /* Image attributes */
+#img
+{
+    box-shadow: 0px 3px 10px white;
+}
+
+.values .value-card:hover img
+{
+    margin-top: -50px;
+    max-width: auto;
+    max-height: 50px;
+}
+
+/* Value card big text attributes */
+.values .value-card .value-img h1
+{
+    color: white;
+    transition: 0.4s ease-in-out;
+}
+
+/* Value card big text hover attributes */
+.values .value-card:hover h1
+{
+    visibility: hidden;
+    opacity: 0;
+    margin-top: 140px;
 }
 
 /* Value card text attributes */
@@ -63,7 +90,7 @@ body
 {
     position: relative;
     margin-top: -140px;
-    padding: 10px 25px;
+    padding: 30px 25px;
     text-align: center;
     color: white;
     font-family: monospace;
