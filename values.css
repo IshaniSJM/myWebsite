@@ -4,6 +4,35 @@ body
     background-color: #242424;
 }
 
+@media screen and (max-width: 780px)
+{
+    *
+    {
+        box-sizing: border-box;
+    }
+
+    .values
+    {
+        width: 270px;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .values .value-card
+    {
+        height: 120px;
+    }
+
+    .values .value-card .value-img
+    {
+        position: relative;
+        width: 150px;
+        height: 200px;
+        top: -30px;
+        left: 3px;
+    }
+}
+
 .values
 {
     position: relative;
@@ -113,40 +142,8 @@ body
     margin-top: -50px;
 }
 
-@media screen and (max-width: 780px)
+#ValuesHeader
 {
-    *
-    {
-        box-sizing: border-box;
-    }
-
-    .values
-    {
-        width: 270px;
-        flex-direction: column;
-        position: relative;
-    }
-
-    .values .value-card
-    {
-        height: 120px;
-    }
-
-    .values .value-card .value-img
-    {
-        position: relative;
-        width: 150px;
-        height: 200px;
-        top: -30px;
-        left: 3px;
-    }
-}
-
-@media screen and (max-width: 400px)
-{
-    .navbar a
-    {
-        float: none;
-        width: 100%;
-    }
+    width: 40vw;
+    height: auto;
 }

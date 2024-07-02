@@ -10,19 +10,6 @@ body
     padding: 0;
 }
 
-@media screen and (max-width: 700px)
-{
-    .row
-    {
-        flex-direction: column;
-    }
-    img
-    {
-        max-width: 100%;
-        max-height: 100%;
-    }
-}
-
 @media screen and (max-width: 400px)
 {
     .navbar a
@@ -90,72 +77,6 @@ body
 }
 
 
-/* ---- Column container ---- */
-
-/* Dividing sections */
-
-.row
-{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-}
-
-
-/* ---- "About Me"/left section's attributes ---- */
-
-.abtMe
-{
-    -ms-flex: auto;
-    flex: auto;
-    background-color: #242424;
-    padding: 20px;
-    color: white;
-}
-
-
-/* ---- "Facts"/right section's attributes ---- */
-
-.facts
-{
-    -ms-flex: auto;
-    flex: auto;
-    background-color: #242424;
-    padding: 20px;
-    color: white;
-}
-
-.facts p
-{
-    color: rgb(255, 255, 0);
-}
-
-.facts li
-{
-    color: rgb(255, 255, 0);
-}
-
-/* Button hiding */
-
-.hidden
-{
-    display: none;
-}
-
-
-/* ---- Background and Vision ---- */
-
-.main
-{
-    -ms-flex: auto;
-    flex: auto;
-    background-color: #363636;
-    color: white;
-    padding: 20px;
-}
-
-
 /* ---- Footer ---- */
 
 .footer
@@ -166,32 +87,4 @@ body
     text-align: center;
     background: #484848;
     color: white;
-}
-
-
-/* ---- Image dimentions ---- */
-
-#Ishani
-{
-    width: 300px;
-    height: auto;
-}
-
-#Raven
-{
-    width: 400px;
-    height: auto;
-    
-}
-
-#HeaderImage
-{
-    width: 40vw;
-    height: auto;
-}
-
-#CodingLaptop
-{
-    width: auto;
-    height: 300px;
 }
