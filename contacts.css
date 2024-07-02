@@ -1,0 +1,65 @@
+/* CONTACT */
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.contact-info-upper-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: yellow;
+    background: #363636;
+    margin: 2rem auto;
+    padding: 0.5rem;
+
+    box-shadow: 0 3px 15px rgba(255, 255, 255, 0.5);
+    transition: 0.1s ease-in-out;
+}
+
+.contact-info-upper-container:hover
+{
+    box-shadow: 0 3px 50px rgba(255, 255, 255, 0.5);
+    transition: 0.1s ease-in-out;
+}
+
+.contact-info-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap: 0.5rem;
+    margin: 1rem;
+}
+
+.contact-info-container p
+{
+    font-size: larger;
+}
+
+.contact-info-container p a
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.contact-info-container p a:hover
+{
+    color: yellow;
+}
+
+.contact-icon
+{
+    cursor: default;
+    align-items: center;
+    height: 2.5rem;
+}

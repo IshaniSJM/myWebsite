@@ -8,6 +8,7 @@ body
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #242424;
 }
 
 @media screen and (max-width: 400px)
@@ -59,6 +60,12 @@ body
     text-align: center;
     background: #121212;
     color: white;
+}
+
+#HeaderImg
+{
+    width: 40vw;
+    height: auto;
 }
 
 /* Header text attributes */

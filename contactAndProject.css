@@ -1,0 +1,85 @@
+section
+{
+    padding: 4vh;
+    height: 96vh;
+    /* margin: 0 10rem; */
+    box-sizing: border-box;
+    min-height: fit-content;
+    color: white;
+}
+/*
+.section-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+*/
+/* PROFILE SECTION */
+
+#profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+
+.section-container
+{
+    gap: 4rem;
+    height: 80%;
+}
+
+.section_pic-container 
+{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin: auto 0;
+}
+
+.section_text
+{
+    align-self: center;
+    text-align: center;
+}
+
+.section_text p
+{
+    font-weight: 600;
+}
+
+.section_text_p1
+{
+    text-align: center;
+    color: yellow;
+}
+
+.section_text_p2
+{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title
+{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+/* ICONS */
+
+.icon
+{
+    cursor: pointer;
+    height: 2rem;
+}
