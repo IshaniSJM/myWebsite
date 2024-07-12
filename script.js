@@ -26,3 +26,4 @@ skillsButton.addEventListener("click", () =>
 {
     skillsDiv.classList.toggle("hidden");
 });
+/* By Ishani Sadagopan Jeyaram Malismitha */
