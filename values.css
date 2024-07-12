@@ -36,7 +36,7 @@ body
 .values
 {
     position: relative;
-    width: 1100px;
+    /* width: 1100px; */
     display: flex;
     justify-content: center;
     align-items: center;
