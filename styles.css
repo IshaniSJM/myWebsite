@@ -9,6 +9,11 @@ body
     margin: 0;
     padding: 0;
     background-color: #242424;
+
+    /*
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    animation: gradient 15s ease infinite;
+    */
 }
 
 @media screen and (max-width: 400px)
