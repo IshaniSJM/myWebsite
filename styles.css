@@ -3,17 +3,48 @@
     box-sizing: border-box;
 }
 
+/*
+@keyframes gradient
+{
+    0%
+    {
+        background-position: 0% 100%;
+    }
+    50%
+    {
+        background-position: 100% 0%;
+    }
+    100%
+    {
+        background-position: 0% 100%;
+    }
+}
+*/
+
+/*
+@keyframes colorTransition
+{
+    0%
+    {
+        background: black;
+    }
+    50%
+    {
+        background: yellow;
+    }
+    100%
+    {
+        background: black;
+    }
+}
+*/
+
 body
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #242424;
-
-    /*
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    animation: gradient 15s ease infinite;
-    */
 }
 
 @media screen and (max-width: 400px)
@@ -34,7 +65,7 @@ body
 .navbar
 {
     overflow: hidden;
-    background-color: #121212;
+    /*background-color: #121212;*/
 }
 
 /* Styling bar links */
@@ -51,8 +82,10 @@ body
 /* Change hover color */
 .navbar a:hover
 {
+    
     background-color: rgb(255, 255, 0);
     color: black;
+    
 }
 
 
@@ -65,6 +98,17 @@ body
     text-align: center;
     background: #121212;
     color: white;
+    /*background: linear-gradient(45deg, black, white, black, yellow);*/
+
+    /*
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 200% 15%;
+    animation: gradient 5s ease-in-out running infinite;
+    */
+
+    /*
+    animation: colorTransition 5s ease-in-out infinite;
+    */
 }
 
 #HeaderImg
