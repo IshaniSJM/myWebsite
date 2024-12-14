@@ -19,9 +19,9 @@
         background-position: 0% 100%;
     }
 }
-*/
 
-/*
+
+
 @keyframes colorTransition
 {
     0%
@@ -77,15 +77,18 @@ body
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    
+    background: linear-gradient(to bottom, #242424 50%, yellow 50%) top;
+    background-size: 100% 200%;
+    transition: .2s ease-in-out;
 }
 
 /* Change hover color */
 .navbar a:hover
 {
-    
-    background-color: rgb(255, 255, 0);
+    /* background-color: rgb(255, 255, 0); */
+    background-position: bottom;
     color: black;
-    
 }
 
 
@@ -98,22 +101,25 @@ body
     text-align: center;
     background: #121212;
     color: white;
-    /*background: linear-gradient(45deg, black, white, black, yellow);*/
 
+    justify-items: center;
     /*
+    background: linear-gradient(45deg, black, white, black, yellow);
+
+    
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 200% 15%;
     animation: gradient 5s ease-in-out running infinite;
-    */
+    
 
-    /*
+    
     animation: colorTransition 5s ease-in-out infinite;
     */
 }
 
 #HeaderImg
 {
-    width: 40vw;
+    width: 70vh;
     height: auto;
 }
 
