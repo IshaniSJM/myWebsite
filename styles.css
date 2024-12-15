@@ -75,9 +75,10 @@ body
     display: block;
     color: white;
     text-align: center;
+    font-weight: bold;
     padding: 14px 20px;
     text-decoration: none;
-    
+
     background: linear-gradient(to bottom, #242424 50%, yellow 50%) top;
     background-size: 100% 200%;
     transition: .2s ease-in-out;
